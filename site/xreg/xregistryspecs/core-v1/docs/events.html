@@ -146,7 +146,6 @@ upon. It MUST be one of:</p>
 <li><code>created</code></li>
 <li><code>updated</code></li>
 <li><code>deprecated</code></li>
-<li><code>undeprecated</code></li>
 <li><code>deleted</code></li>
 </ul>
 <p>Not all <code>&lt;ACTION&gt;</code> values are applicable to all entities. See the
@@ -242,8 +241,8 @@ constraints:</p>
 added, modified, or deleted for the <code>subject</code> entity.</p>
 </li>
 <li>
-<p>This attribute MUST NOT appear on the <code>created</code>, <code>deleted</code>, <code>deprecated</code>,
-or <code>undeprecated</code> events.</p>
+<p>This attribute MUST NOT appear on the <code>created</code>, <code>deleted</code>, or <code>deprecated</code>
+events.</p>
 </li>
 <li>
 <p>This specification does not mandate any particular order for the attribute
@@ -433,7 +432,7 @@ collection changing, in order to see which specific Resources were impacted,
 the <code>io.xregistry.resource.created</code> and <code>io.xregistry.resource.deleted</code>
 events would need to be examined.</p>
 <p>This MUST include any updates to the <code>deprecated</code> sub-object, even
-though a <code>io.xregistry.group.(un)deprecated</code> event is also generated. And
+though a <code>io.xregistry.group.deprecated</code> event is also generated. And
 in that situation <code>deprecated</code> MUST be included in the
 <code>io.xregistry.group.updated</code> event's <code>changed</code> list, if present.</p>
 </li>
@@ -443,22 +442,10 @@ in that situation <code>deprecated</code> MUST be included in the
 <p>Action: <code>deprecated</code></p>
 <ul>
 <li>
-<p>MUST be generated when a Group's <code>deprecated</code> sub-object is set or
+<p>MUST be generated when a Group's <code>deprecated</code> sub-object is set, deleted or
 any of its attributes are updated. Note, a <code>changed</code> list MUST NOT be
-included.</p>
-</li>
-<li>
-<p>An <code>io.xregistry.group.updated</code> event MUST also be generated where
-<code>changed</code>, if present, MUST include <code>epoch</code>, <code>modifiedat</code> and
-<code>deprecated</code> attribute names.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>Action: <code>undeprecated</code></p>
-<ul>
-<li>
-<p>MUST be generated when a Group's <code>deprecated</code> sub-object is deleted.</p>
+included. Note, deleting the <code>deprecated</code> sub-object in a production
+environment is discouraged.</p>
 </li>
 <li>
 <p>An <code>io.xregistry.group.updated</code> event MUST also be generated where
@@ -525,7 +512,7 @@ would need to be examined.</p>
 MUST include the changed top-level <code>meta</code> attribute names prefixes with
 <code>meta.</code>. For example, <code>meta.defaultversionid</code>.</p>
 <p>This MUST include any updates to the <code>deprecated</code> sub-object, even though
-a <code>io.xregistry.(un)deprecated</code> event is also generated. And in that
+a <code>io.xregistry.deprecated</code> event is also generated. And in that
 situation <code>meta.deprecated</code> MUST be included in the
 <code>io.xregistry.resource.updated</code> event's <code>changed</code> list, if present.</p>
 <p>In the case of changing a Resource's <code>meta.defaultversionid</code> attribute,
@@ -551,23 +538,10 @@ is used during serialization of the Resource.</p>
 <p>Action: <code>deprecated</code></p>
 <ul>
 <li>
-<p>MUST be generated when a Resource's <code>meta.deprecated</code> sub-object is set
-or deleted, or when any of its attributes are updated. Note that a
-<code>changed</code> attribute MUST be be included.</p>
-</li>
-<li>
-<p>An <code>io.xregistry.resource.updated</code> event MUST also be generated where
-<code>changed</code>, if present, MUST include <code>meta.epoch</code>, <code>meta.modifiedat</code> and
-<code>meta.deprecated</code> attribute names.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>Action: <code>undeprecated</code></p>
-<ul>
-<li>
-<p>MUST be generated when a Resource's <code>meta.deprecated</code> sub-object is
-deleted.</p>
+<p>MUST be generated when a Resource's <code>meta.deprecated</code> sub-object is set,
+deleted, or when any of its attributes are updated. Note that a <code>changed</code>
+attribute MUST NOT be be included. Note, deleting the <code>meta.deprecated</code>
+sub-object in a production environment is discouraged.</p>
 </li>
 <li>
 <p>An <code>io.xregistry.resource.updated</code> event MUST also be generated where
