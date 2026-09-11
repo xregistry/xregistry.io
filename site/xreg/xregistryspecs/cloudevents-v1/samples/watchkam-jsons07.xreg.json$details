@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "sampleid": "watchkam-jsons07.xreg.json",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json",
+  "xid": "/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "sampleid": "watchkam-jsons07.xreg.json",
-  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json/versions",
-  "xid": "/xregistryspecs/cloudevents-v1/samples/watchkam-jsons07.xreg.json"
+  "versionscount": 1
 }

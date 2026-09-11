@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "sampleid": "contoso-crm.cereg",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/samples/contoso-crm.cereg",
+  "xid": "/xregistryspecs/core-v1/samples/contoso-crm.cereg",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/samples/contoso-crm.cereg/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "sampleid": "contoso-crm.cereg",
-  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/samples/contoso-crm.cereg",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/samples/contoso-crm.cereg/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/samples/contoso-crm.cereg/versions",
-  "xid": "/xregistryspecs/core-v1/samples/contoso-crm.cereg"
+  "versionscount": 1
 }

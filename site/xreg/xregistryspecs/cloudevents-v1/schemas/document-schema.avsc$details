@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "schemaid": "document-schema.avsc",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc",
+  "xid": "/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "schemaid": "document-schema.avsc",
-  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc/versions",
-  "xid": "/xregistryspecs/cloudevents-v1/schemas/document-schema.avsc"
+  "versionscount": 1
 }

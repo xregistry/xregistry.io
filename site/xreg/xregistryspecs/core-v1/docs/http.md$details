@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
   "docid": "http.md",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/http.md",
+  "xid": "/xregistryspecs/core-v1/docs/http.md",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/http.md/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/http.md",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/http.md/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/http.md/versions",
-  "xid": "/xregistryspecs/core-v1/docs/http.md"
+  "versionscount": 1
 }

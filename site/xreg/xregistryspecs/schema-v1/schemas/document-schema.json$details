@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "schemaid": "document-schema.json",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/schema-v1/schemas/document-schema.json",
+  "xid": "/xregistryspecs/schema-v1/schemas/document-schema.json",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/schema-v1/schemas/document-schema.json/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "schemaid": "document-schema.json",
-  "self": "https://xregistry.io/xreg/xregistryspecs/schema-v1/schemas/document-schema.json",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/schema-v1/schemas/document-schema.json/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/schema-v1/schemas/document-schema.json/versions",
-  "xid": "/xregistryspecs/schema-v1/schemas/document-schema.json"
+  "versionscount": 1
 }

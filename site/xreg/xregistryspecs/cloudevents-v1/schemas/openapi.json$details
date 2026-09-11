@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "schemaid": "openapi.json",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/openapi.json",
+  "xid": "/xregistryspecs/cloudevents-v1/schemas/openapi.json",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/openapi.json/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "schemaid": "openapi.json",
-  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/openapi.json",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/openapi.json/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/schemas/openapi.json/versions",
-  "xid": "/xregistryspecs/cloudevents-v1/schemas/openapi.json"
+  "versionscount": 1
 }

@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
   "docid": "xregsample.png",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/xregsample.png",
+  "xid": "/xregistryspecs/core-v1/docs/xregsample.png",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/xregsample.png/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "self": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/xregsample.png",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/xregsample.png/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/core-v1/docs/xregsample.png/versions",
-  "xid": "/xregistryspecs/core-v1/docs/xregsample.png"
+  "versionscount": 1
 }

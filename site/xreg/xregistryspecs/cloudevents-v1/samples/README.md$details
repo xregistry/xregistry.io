@@ -1,14 +1,16 @@
 {
-  "ancestorid": "v1.0-rc1",
-  "createdat": "2000-01-01T12:00:00.00Z",
+  "sampleid": "README.md",
+  "versionid": "v1.0-rc1",
+  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/README.md",
+  "xid": "/xregistryspecs/cloudevents-v1/samples/README.md",
   "epoch": 1,
   "isdefault": true,
-  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/README.md/meta",
+  "createdat": "2000-01-01T12:00:00.00Z",
   "modifiedat": "2000-01-01T12:00:00.00Z",
-  "sampleid": "README.md",
-  "self": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/README.md",
-  "versionid": "v1.0-rc1",
-  "versionscount": 1,
+  "ancestorid": "v1.0-rc1",
+
+  "metaurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/README.md/meta",
+
   "versionsurl": "https://xregistry.io/xreg/xregistryspecs/cloudevents-v1/samples/README.md/versions",
-  "xid": "/xregistryspecs/cloudevents-v1/samples/README.md"
+  "versionscount": 1
 }
